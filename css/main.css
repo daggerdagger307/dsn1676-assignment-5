@@ -11,3 +11,11 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+.bars {
+    background-color: #aaa;
+}
+
+.light {
+    background-color: #ccc;
+}
