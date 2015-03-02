@@ -22,6 +22,7 @@ html {
 .light {
     background-color: #ccc;
     padding: .5em;
+    text-decoration: none;
 }
 
 .clear {
@@ -47,21 +48,21 @@ html {
 
 .list {
     padding: .5em;
+    text-decoration: none;
 }
 
 .list ul {
     padding: .5em;
+    text-decoration: none;
 }
 
 .list-holder {
     border-radius: .5em;
-    text-decoration: none;
 }
 
 .main-list {
-
     background-color: #fff;
-    border-radius: .5em;
+    
     padding: .5em;
 
 }
