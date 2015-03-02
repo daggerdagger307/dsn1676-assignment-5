@@ -1,20 +1,34 @@
-var $form = $('form');
-var $input = $('#input');
+var $form = $('.form');
+var $name = $('.main-input');
 var $list = $('.list');
 
-$form.on('submit', function(eventObject) {
-        eventObject.preventDefault();
-
-    var $theH1 = $('<h1>');
-    $theH1.html($input.val());
-    $theH1.append('<button>Button</button>');
-    $list.append($theH1);
-
-    $input.val('');
+$form.on('submit', function (e) {
+        e.preventDefault();
+    
+    var $li = $('<li class="main-list">').html($name.val());
+    var $clear = $('<button class="clear">X</botton>');
+    
+    
+$clear.on('click', function () {
+    $li.remove('li');
+    });
+    
+    $list.on('click', 'li', function () {
+        $(this).addClass('complete');
+    
+});
+    
+    $li.append($clear);
+    $list.prepend($li);
+    $name.val('');
+    
 });
 
 
-         
+
+
+
+    
          
          
          

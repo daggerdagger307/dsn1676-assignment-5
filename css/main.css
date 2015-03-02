@@ -14,8 +14,54 @@ html {
 
 .bars {
     background-color: #aaa;
+    margin: 0 auto;
+    border-radius: .5em;
+    max-width: 20em;
 }
 
 .light {
     background-color: #ccc;
+    padding: .5em;
+}
+
+.clear {
+    float: right;
+}
+
+.complete {
+    text-decoration: line-through;
+}
+
+.form-holder {
+    text-align: left;
+    padding: 2em;
+}
+
+.form {
+    padding: .5em;
+}
+
+.submit {
+    float: right;
+}
+
+.list {
+    padding: .5em;
+}
+
+.list ul {
+    padding: .5em;
+}
+
+.list-holder {
+    border-radius: .5em;
+    text-decoration: none;
+}
+
+.main-list {
+
+    background-color: #fff;
+    border-radius: .5em;
+    padding: .5em;
+
 }
